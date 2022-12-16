@@ -1,0 +1,59 @@
+.navigation{
+    position: absolute;
+    width: 90%;
+    background: #fff;
+    /* border: 1px solid red; */
+    z-index: 10000;
+    border-radius: 10px;
+    top:50px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+.logo{
+    width:175px;
+    height: 50px;
+    padding-left: 25px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.right-nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.right-nav > div{
+    cursor: pointer;
+   
+}
+.right-nav .menu,.search{
+    font-size: 1.5rem;
+}
+.right-nav .phone{
+    background: linear-gradient(rgb(35, 185, 235),rgb(70, 8, 141));
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+}
+.right-nav .phone .number{
+    width: 75%;
+    text-align: center;
+    padding-left: 10px;
+}
+.right-nav .phone .icon{
+    text-align: center;
+    padding-right: 10px;
+    font-size: 2rem;
+}

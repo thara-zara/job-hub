@@ -1,0 +1,72 @@
+.service{
+    height: 125vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.service-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 50%;
+    position: relative;
+}
+
+.service-bottom{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50%;
+    position: relative;
+}
+.service-bottom .one{
+    position: absolute;
+    left:250px;
+    top:0 ;
+}
+.service-bottom .three{
+    position: absolute;
+    left:575px;
+    top:50px ;
+}
+.service-bottom .two{
+    position: absolute;
+    left:900px;
+    top:100px;
+}
+.service-card{
+   width: 275px;
+   height: 275px;
+   display: flex;
+   flex-direction: column;
+   background: rgb(232, 232, 232);
+   border-radius: 10px;
+   align-items: center;
+   position: relative;
+}
+.service-card span{
+   bottom: 10px;
+   color: rgb(0, 0, 0);
+   font-size: 1.2rem;
+   font-weight:500;
+   text-transform: capitalize;
+   position: absolute;
+}
+.service-card img{
+    object-fit: cover;
+    width: 275px;
+    height: 225px;
+    margin-bottom: 25px;
+    border-radius:  10px 10px 0 0;
+}
+.service-btn{
+    margin-bottom: 25px;
+    text-align: center;
+}

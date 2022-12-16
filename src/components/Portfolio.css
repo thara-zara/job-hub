@@ -1,0 +1,77 @@
+.portfolio{
+    margin-top:100px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.port{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.port .slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 25px;
+    margin-top: 100px;
+}
+.port .slider .slide{
+    height: 300px;
+    width: 225px;
+    background: rgb(242, 242, 242);
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.port .slider .slide h5{
+    font-size: 1.2rem;
+}
+.port .slider .slide img{
+    height: 225px;
+    width: 225px;
+    border-radius:  10px 10px 0 0;
+}
+.portfolio-head{
+    width: 25%;
+    margin-left:25px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 125px;
+}
+.portfolio-head .arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.portfolio-head .arrow i{
+    font-size: 25px;
+    cursor: pointer;
+    padding: 15px;
+    background: rgb(88, 88, 88);
+    border-radius: 50%;
+    color: rgb(239, 239, 239);
+}
+.port-color{
+    position: absolute;
+    height: 45%;
+    width: 100%;
+    background: rgb(54, 54, 255);
+    z-index: -1;
+    top: 0;
+}
+.port-view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}

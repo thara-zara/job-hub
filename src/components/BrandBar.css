@@ -1,0 +1,103 @@
+.brand{
+    width: 100%;
+    height: 100vh;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    position: relative;
+    background: rgb(26, 26, 26);
+}
+.b-details{
+    background:rgb(61, 61, 255);
+    height: 200px;
+    width: 90%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    position: absolute;
+    top: -100px;
+}
+.b-details img{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.b-details img:hover{
+    opacity: 1;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    row-gap: 50px;
+}
+.f-head{
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+.f-head h3{
+    font-size: 50px;
+    font-weight: normal;
+} 
+.f-middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.m-left{
+    font-size: 22px;
+    color: white;
+    display: flex;
+    gap: 100px;
+}
+
+.m-right .input{
+    background: rgb(255, 239, 62);
+    padding: 20px 20px 20px 50px;
+    border-radius: 50px;
+    width: 300px;
+}
+.m-right .input input{
+    height: 50px;
+   border: none;
+   outline: none;
+   background: none;
+   font-size: 22px;
+   color: black;
+}
+.m-right .sub {
+    font-size: 22px;
+    font-weight: normal;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.f-bottom {
+    display: flex;
+    font-size: 22px;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-weight: lighter;
+}
+hr{
+    width:75%;
+    margin-top: 50px;
+    background: grey;
+    height: 2px;
+    border: none;
+    outline: none;
+}
+.copyright{
+    color: gray;
+    font-weight: lighter;
+}

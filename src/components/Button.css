@@ -1,0 +1,19 @@
+.button span{
+    padding: 10px 20px 10px 20px;
+    background: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    cursor: pointer;
+}
+.button .black{
+    background: rgb(57, 57, 57);
+}
+.button .gold{
+    background: rgb(255, 223, 62);
+}
+.button .gold{
+    background: rgb(62, 152, 255);
+}

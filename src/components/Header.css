@@ -1,0 +1,84 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    row-gap: 50px;
+}
+
+.hero-left .bgone{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.hero-left .bgone img{
+    width: 200px;
+}
+.hero-right{
+    width: 75%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.hero-right .right-img{
+    width:813px;
+    height:796px;
+    position: absolute;
+    top: -25%;
+    right:-20%;
+    z-index: 100;
+}
+.hero-left .bgtwo{
+    position: absolute;
+    bottom: -30px;
+    left:-175px;
+    z-index: -1;
+}
+.hero-right .right-svg{
+    width:813px;
+    height:796px;
+    position: absolute;
+    top:-15%;
+    right:-15%;
+}
+.hero-right .right-img img{
+    height: 100%;
+    width: 100%;
+}
+.hero-right .right-svg img{
+    height: 100%;
+    width: 100%;
+}
+.social {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.social span{
+    font-size: 1rem;
+    color: gray;
+}
+.social i{
+    color: gray;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+}
+.social i:hover{
+    color: blue;
+}
